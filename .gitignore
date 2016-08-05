@@ -1,0 +1,11 @@
+*.pyc
+.idea
+.class
+target
+release
+gen-loc
+.classpath
+.project
+.settings
+.idea
+*.iml
