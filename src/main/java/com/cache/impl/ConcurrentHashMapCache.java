@@ -24,7 +24,7 @@ public class ConcurrentHashMapCache implements Cache {
 
     private final ReferenceQueue referenceQueue = new ReferenceQueue();
 
-    private long cleanInterval = 120 * 1000; // 2min
+    private final long cleanInterval = 120 * 1000; // 2min
 
     private Thread cleanThread = null;
 

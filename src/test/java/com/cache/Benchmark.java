@@ -63,7 +63,7 @@ public class Benchmark {
         try {
             Thread.sleep(5000);
         } catch (InterruptedException ex) {
-            System.out.println();
+            System.out.println("Thread was interrupted!");
         }
     }
 
